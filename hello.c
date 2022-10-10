@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main(void){
-    printf("Hola mundo");
-    print("\nHello word");
+    decirhola("Juan");
     return 0;
+}
+
+void decirhola(char* nombre){
+    printf("Hola %s, ¿Como estas?,", nombre);
 }
